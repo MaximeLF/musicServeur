@@ -14,6 +14,7 @@
     "morgan": "~1.9.0",
     "node-omxplayer": "^0.6.1",
     "stylus": "0.54.5",
+    "through2": "^2.0.3",
     "youtube-audio-server": "^2.1.4"
   }
 }
