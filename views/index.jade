@@ -1,5 +1,10 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+doctype html
+html
+  head
+    title My #{title} app
+  body
+      ul#books
+          li
+              a(href="/music/songa") First song
+          li
+              a(href="/music/songb") Second song

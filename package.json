@@ -12,6 +12,7 @@
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
     "morgan": "~1.9.0",
+    "node-omxplayer": "^0.6.1",
     "stylus": "0.54.5",
     "youtube-audio-server": "^2.1.4"
   }
