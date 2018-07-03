@@ -10,3 +10,4 @@ function play(url){
     player.newSource(audio,"local",false,6000);
 
 }
+exports.play=play;

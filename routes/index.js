@@ -8,12 +8,12 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/music/songa', function(req, res, next) {
-    play('https://youtu.be/DWfY9GRe7SI');
+    yt.play('https://youtu.be/DWfY9GRe7SI');
     res.redirect('/');
 });
 
 router.get('/music/songb', function(req, res, next) {
-    play('https://youtu.be/EqPtz5qN7HM');
+    yt.play('https://youtu.be/EqPtz5qN7HM');
     res.redirect('/');
 });
 
